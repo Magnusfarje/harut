@@ -1,6 +1,5 @@
 <h3>About</h3>
-Harut is a carusel jquery plugin that polls an url for json data to fill html with.
-
+Harut is a carusel jquery plugin that makes reocurring ajax calls for one item(json) at a time and uses a simple html data binding system to display the data.
 
 <h3>Usage</h3>
 <strong>Html binding</strong>
