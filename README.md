@@ -26,6 +26,7 @@ Haruts html binding could look like this:
 ```
 
 <strong>Config options</strong>
+
 ```
 $('#harut').harut({
 url: 'url/get/jsonObject',                                  //Ajax post url
