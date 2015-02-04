@@ -28,7 +28,7 @@
                     me.$elem.html(me.newHtml);
                     var request = ((function () { return $.post(me.url, me.getAjaxData()); })());
                     request.done(function (data) {
-                        me.parser(data.json); // FIZXA
+                        me.parser(data); 
                         me.$elem.fadeIn(me.options.fadeSpeed, function () { });
                         me.onComplete(data);
                         me.count += 1;
