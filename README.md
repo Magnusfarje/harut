@@ -5,17 +5,20 @@ Harut is a carusel jquery plugin that polls an url for json data to fill html wi
 <h3>Usage</h3>
 <strong>Html binding</strong>
 url/get/jsonObject returns:
+
 ```
 {
-		"Header": "Picture 1",
-		"Items": [{
-			"Name": "item1"
-		}, {
-			"Name": "item2"
-		}]
-	}
-	```
+"Header": "Picture 1",
+"Items": [{
+"Name": "item1"
+}, {
+"Name": "item2"
+}]
+}
+```
+
 Haruts html binding could look like this:
+
 ```
 <div id="harut">
     <strong data-harut="text:Header"></strong>
