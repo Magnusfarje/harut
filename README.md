@@ -32,12 +32,12 @@ Haruts html binding could look like this:
 
 ```
 $('#harut').harut({
-url: 'url/get/jsonObject',                                  //Ajax post url
-arguments: {userId : 1},                                    //Ajax post argumenst
-speed: 5000,                                                //ms delay between posts
-onComplete: function () { console.log('ajax post done'); }, //On post done
-counterEnabled: true,                                       //On true will add current poll count to post               
-counterName: 'count',                                       //Set current poll count key
- fadeSpeed: 'slow',                                          //Html element fade in speed
-        });
+    url: 'url/get/jsonObject',                                  //Ajax post url
+    arguments: {userId : 1},                                    //Ajax post argumenst
+    speed: 5000,                                                //ms delay between posts
+    onComplete: function () { console.log('ajax post done'); }, //On post done
+    counterEnabled: true,                                       //On true will add current poll count to post               
+    counterName: 'count',                                       //Set current poll count key
+    fadeSpeed: 'slow',                                          //Html element fade in speed
+});
 ```
