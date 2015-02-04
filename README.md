@@ -4,7 +4,6 @@ Harut is a carusel jquery plugin that makes reocurring ajax calls for one item(j
 <h3>Usage</h3>
 <strong>Html binding</strong>
 url/get/jsonObject returns:
-
 ```
 {
     "Header": "Picture 1",
@@ -16,7 +15,6 @@ url/get/jsonObject returns:
 ```
 
 Haruts html binding could look like this:
-
 ```
 <div id="harut">
     <strong data-harut="text:Header"></strong>
@@ -27,7 +25,6 @@ Haruts html binding could look like this:
 ```
 
 <strong>Config options</strong>
-
 ```
 $('#harut').harut({
     url: 'url/get/jsonObject',                                  //Ajax post url
