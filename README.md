@@ -36,3 +36,11 @@ $('#harut').harut({
     fadeSpeed: 'slow',                                          //Html element fade in speed
 });
 ```
+
+In above example the jQuery post method would look like this:
+```
+$.post('url/get/jsonObject',{userId : 1}, count : 0) // first poll
+$.post('url/get/jsonObject',{userId : 1}, count : 1) // second poll
+```
+
+
