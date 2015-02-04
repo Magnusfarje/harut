@@ -8,12 +8,11 @@ url/get/jsonObject returns:
 
 ```
 {
-"Header": "Picture 1",
-"Items": [{
-"Name": "item1"
-}, {
-"Name": "item2"
-}]
+    "Header": "Picture 1",
+    "Items": [{
+        "Name": "item1"}, {
+        "Name": "item2"
+    }]
 }
 ```
 
